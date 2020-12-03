@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import textoavoz
 import wikipedia
 wikipedia.set_lang("es")
 
@@ -16,8 +17,4 @@ def buscador(pregunta):
 
     res2 = "".join(reslist)
     print(res2)
-
-
-pregunta = str(input("Escribe lo que quieres buscar: "))
-
-buscador(pregunta)
+    return(res2)
