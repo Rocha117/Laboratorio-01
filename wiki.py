@@ -15,6 +15,6 @@ def buscador(pregunta):
         reslist.remove(reslist[i])
         reslist.remove(reslist[i])
 
-    res2 = "".join(reslist)
-    print(res2)
-    return(res2)
+    resp2 = "".join(reslist)
+    print(resp2)
+    return(resp2)
