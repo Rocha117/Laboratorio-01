@@ -1,6 +1,7 @@
 import textoavoz
 import wiki
 from wiki import buscador
+import Reconocieminto_de_voz
 
 nombre = str(input("Nombre: ").lower())
 apellido = str(input("Apellido: ").lower())
